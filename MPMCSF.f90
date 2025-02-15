@@ -3,7 +3,7 @@
 ! -  Main procedures                                               -
 ! -                                                                -
 ! ------------------------------------------------------------------
-program MPMCSF
+program MPMSFC
   use omp_lib
   use update_step
   use ParticleData
@@ -150,4 +150,4 @@ program MPMCSF
 202 format("** Time per particle cycle: ", f12.4, " nanoseconds")
 203 format("** Total elasped time : ", f12.4, " seconds")
 
-end program MPMCSF
+end program MPMSFC
